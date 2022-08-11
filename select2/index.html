@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js"
+        integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <title>Select 2</title>
+</head>
+
+<body>
+
+    <div class="container mt-4">
+        <div class="mb-3 mt-4">
+            <label class="form-label">Tag</label>
+            <select name="tag[]" class="form-select form-select-lg form-tag" multiple required>
+                <option value="1">satu</option>
+                <option value="2">dua</option>
+                <option value="3">tiga</option>
+
+                <!-- <?php foreach ($tags as $tag) : ?>
+                <option value="<?= $tag->tag_seo ?>">
+                    <?= $tag->nama_tag ?>
+                </option>
+                <?php endforeach ?> -->
+            </select>
+        </div>
+    </div>
+
+    <!-- cara insert data array -->
+    $tag = $this->input->post('tag');
+
+    $data = [
+    'tag' => implode(",", $tag),
+    ];
+
+    <!-- cara menampilkan data ke dalam form edit -->
+
+    <!-- $pisah untuk memisahkan string menjadi array untuk multiple select -->
+    <!-- <?php $pisah = explode(',', $item[0]->tag) ?> -->
+    <div class="mb-3">
+        <label class="form-label">Tag</label>
+        <select name="tag[]" class="form-select form-select-lg form-tag" multiple required>
+            <!-- <?php for ($i = 0; $i < count($tags); $i++) : ?> -->
+            <option value="<?= $tags[$i]->tag_seo ?>" <?=in_array($tags[$i]->tag_seo, $pisah) ? 'selected' : ''; ?>>
+                <!-- <?= $tags[$i]->nama_tag ?> -->
+            </option>
+
+            <!-- <?php endfor; ?> -->
+        </select>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="select2.js"></script>
+</body>
+
+</html>
