@@ -1,0 +1,273 @@
+CRITICAL - 2022-07-07 01:54:20 --> Undefined index: columns
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: columns', 'APPPATH\\ThirdParty\\ssp.php', 166, [...])
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([], [...], [], null)
+ 3 APPPATH\Controllers\AkademikController.php(150): SSP::simple([], [...], 'mahasiswa', 'id', [...])
+ 4 APPPATH\Controllers\AkademikController.php(24): App\Controllers\AkademikController->getAllMahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AkademikController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkademikController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 02:02:27 --> Undefined index: columns
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: columns', 'APPPATH\\ThirdParty\\ssp.php', 166, [...])
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([...], [...], [], null)
+ 3 APPPATH\Controllers\AkademikController.php(149): SSP::simple([...], [...], 'mahasiswa', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AkademikController->getAllMahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkademikController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 02:03:27 --> Undefined index: columns
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: columns', 'APPPATH\\ThirdParty\\ssp.php', 166, [...])
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([...], [...], [], null)
+ 3 APPPATH\Controllers\AkademikController.php(149): SSP::simple([...], [...], 'mahasiswa', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AkademikController->getAllMahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkademikController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 02:05:59 --> Undefined index: columns
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: columns', 'APPPATH\\ThirdParty\\ssp.php', 166, [...])
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([...], [...], [], null)
+ 3 APPPATH\Controllers\AkademikController.php(149): SSP::simple([...], [...], 'mahasiswa', 'IdMhsw', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AkademikController->getAllMahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkademikController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 02:06:42 --> Undefined index: columns
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: columns', 'APPPATH\\ThirdParty\\ssp.php', 166, [...])
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([...], [...], [], null)
+ 3 APPPATH\Controllers\AkademikController.php(149): SSP::simple([...], [...], 'mahasiswa', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AkademikController->getAllMahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkademikController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 02:07:27 --> Undefined index: columns
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: columns', 'APPPATH\\ThirdParty\\ssp.php', 166, [...])
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([...], [...], [], null)
+ 3 APPPATH\Controllers\AkademikController.php(149): SSP::simple([...], [...], 'mahasiswa', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AkademikController->getAllMahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkademikController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 02:17:10 --> Undefined index: columns
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: columns', 'APPPATH\\ThirdParty\\ssp.php', 166, [...])
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([...], [...], [], null)
+ 3 APPPATH\Controllers\AkademikController.php(149): SSP::simple([...], [...], 'mahasiswa', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AkademikController->getAllMahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkademikController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 02:17:28 --> Undefined index: columns
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: columns', 'APPPATH\\ThirdParty\\ssp.php', 166, [...])
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([...], [...], [], null)
+ 3 APPPATH\Controllers\AkademikController.php(149): SSP::simple([...], [...], 'mahasiswa', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AkademikController->getAllMahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkademikController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 02:23:29 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2334.
+ 1 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\AkademikController.php(238): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AkademikController->deleteMahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkademikController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 02:23:50 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2334.
+ 1 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\AkademikController.php(238): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AkademikController->deleteMahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkademikController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 02:25:13 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2334.
+ 1 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\AkademikController.php(238): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AkademikController->deleteMahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkademikController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 02:27:08 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2334.
+ 1 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\AkademikController.php(238): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AkademikController->deleteMahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkademikController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-07-07 02:27:59 --> Unknown column 'IdMhsw' in 'where clause'
+CRITICAL - 2022-07-07 02:27:59 --> Unknown column 'IdMhsw' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `mahasiswa`
+WHERE `IdMhsw` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `mahasiswa`
+WHERE `IdMhsw` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `mahasiswa`
+WHERE `IdMhsw` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2358): CodeIgniter\Database\BaseConnection->query('DELETE FROM `mahasiswa`
+WHERE `IdMhsw` IN :IdMhsw:', [...], false)
+ 5 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\AkademikController.php(238): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AkademikController->deleteMahasiswa()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkademikController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 02:42:21 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2334.
+ 1 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\AkademikController.php(238): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AkademikController->deleteMahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkademikController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 02:43:44 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes)
+in APPPATH\ThirdParty\ssp.php on line 359.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-07 02:44:10 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes)
+in APPPATH\ThirdParty\ssp.php on line 359.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-07 02:44:23 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes)
+in APPPATH\ThirdParty\ssp.php on line 359.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-07 02:44:35 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes)
+in APPPATH\ThirdParty\ssp.php on line 359.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-07 02:48:09 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 75501568 bytes)
+in APPPATH\Controllers\AkademikController.php on line 159.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-07 03:08:35 --> A non-numeric value encountered
+in APPPATH\Controllers\AkademikController.php on line 113.
+ 1 APPPATH\Controllers\AkademikController.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\AkademikController.php', 113, [...])
+ 2 APPPATH\ThirdParty\ssp.php(50): App\Controllers\AkademikController->App\Controllers\{closure}('8', [...])
+ 3 APPPATH\ThirdParty\ssp.php(284): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AkademikController.php(155): SSP::simple([...], [...], 'mahasiswa', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AkademikController->getAllMahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkademikController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 03:16:06 --> A non-numeric value encountered
+in APPPATH\Controllers\AkademikController.php on line 117.
+ 1 APPPATH\Controllers\AkademikController.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\AkademikController.php', 117, [...])
+ 2 APPPATH\ThirdParty\ssp.php(50): App\Controllers\AkademikController->App\Controllers\{closure}('8', [...])
+ 3 APPPATH\ThirdParty\ssp.php(284): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AkademikController.php(157): SSP::simple([...], [...], 'mahasiswa', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AkademikController->getAllMahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkademikController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 03:18:00 --> Undefined variable: num
+in APPPATH\Controllers\AkademikController.php on line 113.
+ 1 APPPATH\Controllers\AkademikController.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: num', 'APPPATH\\Controllers\\AkademikController.php', 113, [...])
+ 2 APPPATH\ThirdParty\ssp.php(50): App\Controllers\AkademikController->App\Controllers\{closure}('8', [...])
+ 3 APPPATH\ThirdParty\ssp.php(284): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AkademikController.php(157): SSP::simple([...], [...], 'mahasiswa', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AkademikController->getAllMahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkademikController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 03:31:12 --> Undefined index: Nama
+in APPPATH\Controllers\AkademikController.php on line 120.
+ 1 APPPATH\Controllers\AkademikController.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Nama', 'APPPATH\\Controllers\\AkademikController.php', 120, [...])
+ 2 APPPATH\ThirdParty\ssp.php(50): App\Controllers\AkademikController->App\Controllers\{closure}('28', [...])
+ 3 APPPATH\ThirdParty\ssp.php(284): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AkademikController.php(160): SSP::simple([...], [...], 'mahasiswa', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AkademikController->getAllMahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkademikController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 03:31:27 --> Undefined index: id
+in APPPATH\Controllers\AkademikController.php on line 120.
+ 1 APPPATH\Controllers\AkademikController.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'APPPATH\\Controllers\\AkademikController.php', 120, [...])
+ 2 APPPATH\ThirdParty\ssp.php(50): App\Controllers\AkademikController->App\Controllers\{closure}('28', [...])
+ 3 APPPATH\ThirdParty\ssp.php(284): SSP::data_output([...], [...], null)
+ 4 APPPATH\Controllers\AkademikController.php(160): SSP::simple([...], [...], 'mahasiswa', 'id', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AkademikController->getAllMahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkademikController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 03:34:27 --> Undefined index: columns
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: columns', 'APPPATH\\ThirdParty\\ssp.php', 166, [...])
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([...], [...], [], null)
+ 3 APPPATH\Controllers\AkademikController.php(150): SSP::simple([...], [...], 'mahasiswa', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AkademikController->getAllMahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkademikController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 03:34:32 --> Undefined index: columns
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: columns', 'APPPATH\\ThirdParty\\ssp.php', 166, [...])
+ 2 APPPATH\ThirdParty\ssp.php(229): SSP::filter([...], [...], [], null)
+ 3 APPPATH\Controllers\AkademikController.php(150): SSP::simple([...], [...], 'mahasiswa', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AkademikController->getAllMahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkademikController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 03:41:22 --> Undefined index: db
+in APPPATH\ThirdParty\ssp.php on line 117.
+ 1 APPPATH\ThirdParty\ssp.php(117): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: db', 'APPPATH\\ThirdParty\\ssp.php', 117, [...])
+ 2 APPPATH\ThirdParty\ssp.php(228): SSP::order([...], [...], null)
+ 3 APPPATH\Controllers\AkademikController.php(149): SSP::simple([...], [...], 'mahasiswa', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AkademikController->getAllMahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkademikController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 04:09:22 --> Undefined index: db
+in APPPATH\ThirdParty\ssp.php on line 117.
+ 1 APPPATH\ThirdParty\ssp.php(117): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: db', 'APPPATH\\ThirdParty\\ssp.php', 117, [...])
+ 2 APPPATH\ThirdParty\ssp.php(228): SSP::order([...], [...], null)
+ 3 APPPATH\Controllers\AkademikController.php(149): SSP::simple([...], [...], 'mahasiswa', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AkademikController->getAllMahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkademikController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-07 04:43:42 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\ThirdParty\ssp.php on line 352.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-07-07 23:26:35 --> Undefined index: columns
+in APPPATH\ThirdParty\ssp.php on line 166.
+ 1 APPPATH\ThirdParty\ssp.php(166): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: columns', 'APPPATH\\ThirdParty\\ssp.php', 166, [...])
+ 2 APPPATH\ThirdParty\ssp.php(231): SSP::filter([...], [...], [], null)
+ 3 APPPATH\Controllers\AkademikController.php(150): SSP::simple([...], [...], 'mahasiswa', 'id', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AkademikController->getAllMahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AkademikController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
