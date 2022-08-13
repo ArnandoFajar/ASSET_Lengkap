@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js"
+        integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker3.min.css"
+        integrity="sha512-rxThY3LYIfYsVCWPCW9dB0k+e3RZB39f23ylUYTEuZMDrN/vRqLdaCBo/FbvVT6uC2r0ObfPzotsfKF9Qc5W5g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container" style="margin-top: 200px;">
+        <div class="col-md-4 col-sm-12 col-xs-12">
+            <!-- Blog Sidebar -->
+            <div class="blog-sidebar">
+
+                <!-- Single Sidebar -->
+                <div class="single-sidebar category text-center">
+                    <h2 class="text-center">Kalender</h2>
+                    <div class="text-center">
+                        <div id="filter-datepicker" style="display: inline-block;"></div>
+                        <input type="hidden" id="filter-datepicker">
+                    </div>
+                    <div class="d-flex">
+                        <div style="display: inline;">
+                            <div class="lingkar lingkar-libur"></div>
+                            Libur
+                        </div>
+
+                        <div style="display: inline; margin-left: 1rem;">
+                            <div class="lingkar lingkar-agenda"></div>
+                            Agenda
+                        </div>
+
+                        <div style="display: inline; margin-left: 1rem;">
+                            <div class="lingkar lingkar-hari"></div>
+                            Hari ini
+                        </div>
+                    </div>
+                </div>
+                <!--/ End Single Sidebar -->
+
+            </div>
+            <!--/ End Blog Sidebar -->
+        </div>
+    </div>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/locales/bootstrap-datepicker.id.min.js"
+        integrity="sha512-zHDWtKP91CHnvBDpPpfLo9UsuMa02/WgXDYcnFp5DFs8lQvhCe2tx56h2l7SqKs/+yQCx4W++hZ/ABg8t3KH/Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" charset="UTF-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"
+        integrity="sha512-T/tUfKSV1bihCnd+MxKD0Hm1uBBroVYBOYSk1knyvQ9VyZJpc/ALb4P0r6ubwVPSGB2GvjeoMAJJImBG12TiaQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $(document).ready(function () {
+            $.fn.datepicker.dates['id'] = {
+                days: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                daysShort: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+                daysMin: ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"],
+                months: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+                monthsShort: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+                today: "Today",
+                clear: "Clear",
+                format: "mm/dd/yyyy",
+                titleFormat: "MM yyyy", /* Leverages same syntax as 'format' */
+                weekStart: 0
+            };
+
+            var hilightedFull = ['2022-8-16', '2022-8-18'];
+            $("#filter-datepicker").datepicker({
+                language: 'id',
+                dateFormat: 'yyyy-mm-dd',
+                todayHighlight: true,
+                daysOfWeekDisabled: "0,6",
+                daysOfWeekHighlighted: "0,6",
+                minDate: 0,
+                beforeShowDay: function (date) {
+                    var allDates = date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate();
+                    if ((~hilightedFull.indexOf(allDates))) {
+                        return {
+                            classes: 'active',
+                            tooltip: 'Agenda'
+                        };
+                    }
+                },
+                todayHighlight: true,
+                clearBtn: true,
+            });
+        });
+    </script>
+</body>
+
+</html>
